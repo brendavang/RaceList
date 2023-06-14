@@ -1,79 +1,79 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\obj\\Debug\\net6.0\\build-gz\\Ro8LPK52.gz",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\obj\\Debug\\net6.0\\build-gz\\Ro8LPK52.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\obj\\Debug\\net6.0\\scopedcss\\bundle\\RaceList.styles.css",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\obj\\Debug\\net6.0\\scopedcss\\bundle\\RaceList.styles.css",
       "PackagePath": "staticwebassets\\RaceList.styles.css"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\app.css",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\favicon.ico",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\icon-192.png",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\index.html",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\wwwroot\\sample-data\\weather.json",
+      "Id": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

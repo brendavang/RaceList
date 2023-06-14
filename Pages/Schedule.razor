@@ -1,6 +1,49 @@
 ﻿@page "/schedule"
+@inject HttpClient Http
+@using RaceList.Models
+
+<PageTitle>NASCAR Schedule</PageTitle>
+<h1>NASCAR Schedule</h1>
 <h3>2023</h3>
+@if (schedule == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Race Name</th>
+                <th>Race Date</th>
+                <th>Track Name</th>
+                <th>Scheduled Distance</th>
+                <th>Scheduled Laps</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var race in schedule.Series1)
+            {
+                <tr>
+                    <td>@race.RaceName</td>
+                    <td>@race.RaceDate.ToShortDateString()</td>
+                    <td>@race.TrackName</td>
+                    <td>@race.ScheduledDistance</td>
+                    <td>@race.ScheduledLaps</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<button class="btn btn-primary">2023</button>
 
 @code {
-    
+    private RaceListBasic? schedule;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        schedule = await Http.GetFromJsonAsync<RaceListBasic>("https://cf.nascar.com/cacher/2023/race_list_basic.json");
+    }
 }

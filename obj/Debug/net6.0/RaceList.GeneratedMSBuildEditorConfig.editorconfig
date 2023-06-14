@@ -9,49 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = RaceList
 build_property.RootNamespace = RaceList
-build_property.ProjectDir = C:\Users\brend.DESKTOP-AHFJ9PH\source\Penske\RaceList\RaceList\
+build_property.ProjectDir = D:\source\Penske\RaceList\RaceList\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\brend.DESKTOP-AHFJ9PH\source\Penske\RaceList\RaceList
+build_property.MSBuildProjectDirectory = D:\source\Penske\RaceList\RaceList
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/brend.DESKTOP-AHFJ9PH/source/Penske/RaceList/RaceList/App.razor]
+[D:/source/Penske/RaceList/RaceList/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brend.DESKTOP-AHFJ9PH/source/Penske/RaceList/RaceList/Pages/Component.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50LnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/brend.DESKTOP-AHFJ9PH/source/Penske/RaceList/RaceList/Pages/Counter.razor]
+[D:/source/Penske/RaceList/RaceList/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brend.DESKTOP-AHFJ9PH/source/Penske/RaceList/RaceList/Pages/FetchData.razor]
+[D:/source/Penske/RaceList/RaceList/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brend.DESKTOP-AHFJ9PH/source/Penske/RaceList/RaceList/Pages/Index.razor]
+[D:/source/Penske/RaceList/RaceList/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brend.DESKTOP-AHFJ9PH/source/Penske/RaceList/RaceList/Pages/Schedule.razor]
+[D:/source/Penske/RaceList/RaceList/Pages/Schedule.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NoZWR1bGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brend.DESKTOP-AHFJ9PH/source/Penske/RaceList/RaceList/Shared/SurveyPrompt.razor]
+[D:/source/Penske/RaceList/RaceList/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brend.DESKTOP-AHFJ9PH/source/Penske/RaceList/RaceList/_Imports.razor]
+[D:/source/Penske/RaceList/RaceList/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brend.DESKTOP-AHFJ9PH/source/Penske/RaceList/RaceList/Shared/MainLayout.razor]
+[D:/source/Penske/RaceList/RaceList/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-uhvzf50wk2
 
-[C:/Users/brend.DESKTOP-AHFJ9PH/source/Penske/RaceList/RaceList/Shared/NavMenu.razor]
+[D:/source/Penske/RaceList/RaceList/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-um9odaul5a

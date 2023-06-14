@@ -1767,11 +1767,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\RaceList.csproj",
+      "projectUniqueName": "D:\\source\\Penske\\RaceList\\RaceList\\RaceList.csproj",
       "projectName": "RaceList",
-      "projectPath": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\RaceList.csproj",
+      "projectPath": "D:\\source\\Penske\\RaceList\\RaceList\\RaceList.csproj",
       "packagesPath": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brend.DESKTOP-AHFJ9PH\\source\\Penske\\RaceList\\RaceList\\obj\\",
+      "outputPath": "D:\\source\\Penske\\RaceList\\RaceList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brend.DESKTOP-AHFJ9PH\\AppData\\Roaming\\NuGet\\NuGet.Config",
