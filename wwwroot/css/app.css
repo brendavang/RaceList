@@ -66,13 +66,23 @@ a, .btn-link {
 
 .schedule {
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
+    grid-template-columns: 30vw 30vw 30vw;
 }
 
 .series-table {
-    padding: 20px;
+    margin: 20px 20px;
 }
 
-.race-row {
+.cell-empahsize {
+    background-color: black !important;
+    text-transform: uppercase;
+    color: white;
+}
+
+.year-buttons {
+    background-color: black;
+    color: white;
+}
+.year-buttons:hover {
+    color: white;
 }

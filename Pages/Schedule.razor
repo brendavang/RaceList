@@ -3,15 +3,20 @@
 @using RaceList.Models
 
 <PageTitle>NASCAR Schedule</PageTitle>
-<h1>NASCAR Schedule</h1>
-<h3>@Year</h3>
 
-<button @onclick="FetchPreviousYear">Previous Year</button>
-@if (Year < DateTime.Now.Year)
-{
-    <button @onclick="FetchNextYear">Next Year</button>
-}
+<h1 class="text-center fw-bold">NASCAR Schedule</h1>
+<h3 class="text-center fw-bold">@Year</h3>
 
+<div class="">
+    <div class="btn-group mx-4 " role="group">
+        <button @onclick="() => FetchYear(true)" type="button" class="btn year-buttons">Previous Year</button>
+        @if (Year < DateTime.Now.Year)
+        {
+            <button @onclick="FetchCurrentYear" type="button" class="btn year-buttons">@DateTime.Now.Year</button>
+            <button @onclick="() => FetchYear(false)" type="button" class="btn year-buttons">Next Year</button>
+        }
+    </div>
+</div>
 @if (schedule == null)
 {
     <p><em>Loading...</em></p>
@@ -20,15 +25,15 @@ else
 {
     <div class="schedule">
         <div class="series-table">
-            <Series SeriesName="Series 1" RaceList="schedule.Series1" />
+            <Series SeriesName="Cup" RaceList="schedule.Series1" />
         </div>
 
         <div class="series-table">
-            <Series SeriesName="Series 2" RaceList="schedule.Series2" />
+            <Series SeriesName="Xfinity" RaceList="schedule.Series2" />
         </div>
 
         <div class="series-table">
-            <Series SeriesName="Series 3" RaceList="schedule.Series3" />
+            <Series SeriesName="Trucks" RaceList="schedule.Series3" />
         </div>
     </div>
 }
@@ -42,15 +47,26 @@ else
         schedule = await Http.GetFromJsonAsync<RaceListBasic>($"https://cf.nascar.com/cacher/{Year}/race_list_basic.json");
     }
 
-    private async Task FetchPreviousYear()
+    private async Task FetchYear(bool isPrevYear)
     {
-        Year -= 1;
-        schedule = await Http.GetFromJsonAsync<RaceListBasic>($"https://cf.nascar.com/cacher/{Year}/race_list_basic.json");
+        if (isPrevYear)
+        {
+            Year -= 1;
+        } else
+        {
+            Year += 1;
+        }
+        await FetchList();
     }
 
-    private async Task FetchNextYear()
+    private async Task FetchCurrentYear()
     {
-        Year += 1;
+        Year = DateTime.Now.Year; 
+        await FetchList();
+    }
+
+    private async Task FetchList()
+    {
         schedule = await Http.GetFromJsonAsync<RaceListBasic>($"https://cf.nascar.com/cacher/{Year}/race_list_basic.json");
     }
 }
