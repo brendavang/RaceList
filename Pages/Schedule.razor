@@ -4,8 +4,13 @@
 
 <PageTitle>NASCAR Schedule</PageTitle>
 <h1>NASCAR Schedule</h1>
-<h3>2023</h3>
+<h3>@Year</h3>
 
+<button @onclick="FetchPreviousYear">Previous Year</button>
+@if (Year < DateTime.Now.Year)
+{
+    <button @onclick="FetchNextYear">Next Year</button>
+}
 
 @if (schedule == null)
 {
@@ -30,10 +35,22 @@ else
 
 @code {
     private RaceListBasic? schedule;
-
+    private int Year = DateTime.Now.Year;
 
     protected override async Task OnInitializedAsync()
     {
-        schedule = await Http.GetFromJsonAsync<RaceListBasic>("https://cf.nascar.com/cacher/2023/race_list_basic.json");
+        schedule = await Http.GetFromJsonAsync<RaceListBasic>($"https://cf.nascar.com/cacher/{Year}/race_list_basic.json");
+    }
+
+    private async Task FetchPreviousYear()
+    {
+        Year -= 1;
+        schedule = await Http.GetFromJsonAsync<RaceListBasic>($"https://cf.nascar.com/cacher/{Year}/race_list_basic.json");
+    }
+
+    private async Task FetchNextYear()
+    {
+        Year += 1;
+        schedule = await Http.GetFromJsonAsync<RaceListBasic>($"https://cf.nascar.com/cacher/{Year}/race_list_basic.json");
     }
 }
