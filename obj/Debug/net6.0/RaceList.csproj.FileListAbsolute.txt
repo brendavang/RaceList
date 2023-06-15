@@ -1630,7 +1630,6 @@ D:\source\Penske\RaceList\RaceList\obj\Debug\net6.0\staticwebassets.pack.json
 D:\source\Penske\RaceList\RaceList\obj\Debug\net6.0\staticwebassets.build.json
 D:\source\Penske\RaceList\RaceList\obj\Debug\net6.0\staticwebassets.development.json
 D:\source\Penske\RaceList\RaceList\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-D:\source\Penske\RaceList\RaceList\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 D:\source\Penske\RaceList\RaceList\obj\Debug\net6.0\scopedcss\bundle\RaceList.styles.css
 D:\source\Penske\RaceList\RaceList\obj\Debug\net6.0\scopedcss\projectbundle\RaceList.bundle.scp.css
 D:\source\Penske\RaceList\RaceList\obj\Debug\net6.0\RaceList.csproj.CopyComplete

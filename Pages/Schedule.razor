@@ -1,42 +1,32 @@
-﻿@page "/schedule"
+﻿@page "/"
 @inject HttpClient Http
 @using RaceList.Models
 
 <PageTitle>NASCAR Schedule</PageTitle>
 <h1>NASCAR Schedule</h1>
 <h3>2023</h3>
+
+
 @if (schedule == null)
 {
     <p><em>Loading...</em></p>
 }
 else
 {
-    <table>
-        <thead>
-            <tr>
-                <th>Race Name</th>
-                <th>Race Date</th>
-                <th>Track Name</th>
-                <th>Scheduled Distance</th>
-                <th>Scheduled Laps</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var race in schedule.Series1)
-            {
-                <tr>
-                    <td>@race.RaceName</td>
-                    <td>@race.RaceDate.ToShortDateString()</td>
-                    <td>@race.TrackName</td>
-                    <td>@race.ScheduledDistance</td>
-                    <td>@race.ScheduledLaps</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+    <div class="schedule">
+        <div class="series-table">
+            <Series SeriesName="Series 1" RaceList="schedule.Series1" />
+        </div>
 
-<button class="btn btn-primary">2023</button>
+        <div class="series-table">
+            <Series SeriesName="Series 2" RaceList="schedule.Series2" />
+        </div>
+
+        <div class="series-table">
+            <Series SeriesName="Series 3" RaceList="schedule.Series3" />
+        </div>
+    </div>
+}
 
 @code {
     private RaceListBasic? schedule;

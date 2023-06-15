@@ -62,3 +62,17 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+
+.schedule {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.series-table {
+    padding: 20px;
+}
+
+.race-row {
+}

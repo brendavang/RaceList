@@ -1,0 +1,40 @@
+﻿@inject HttpClient Http
+@using RaceList.Models
+
+@if (RaceList == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th colspan="2">@SeriesName</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var race in RaceList)
+            {
+                <tr>
+                    <td class="fw-bold text-end">@race.RaceDate.ToString("MMM d")</td>
+                    <td>
+                        <strong>@race.RaceName</strong> <br>
+                        @race.TrackName <br>
+                        @race.ScheduledDistance Miles<br>
+                        @race.ScheduledLaps Laps<br>
+                        @race.RaceDate.ToShortTimeString() <br>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter]
+    public String? SeriesName { get; set; }
+    [Parameter]
+    public Race[]? RaceList { get; set; }
+
+}

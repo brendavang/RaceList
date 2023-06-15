@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2/+3MD7kiai6QQA7KlPZtY0zO+nFL01weGZD6lA3yzU=",
+  "Hash": "ZTG6BVBdwK6YN8eUaQQrW01XwViodd6VooDF64JWSSs=",
   "Source": "RaceList",
   "BasePath": "/",
   "Mode": "Root",
@@ -7087,23 +7087,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\sample-data\\weather.json",
-      "SourceId": "RaceList",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\Penske\\RaceList\\RaceList\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
     }
   ]
 }

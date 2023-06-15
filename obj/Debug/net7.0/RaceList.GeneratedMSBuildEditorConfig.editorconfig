@@ -1,0 +1,37 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = RaceList
+build_property.RootNamespace = RaceList
+build_property.ProjectDir = D:\source\Penske\RaceList\RaceList\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\source\Penske\RaceList\RaceList
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/source/Penske/RaceList/RaceList/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/source/Penske/RaceList/RaceList/Pages/Schedule.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NoZWR1bGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/source/Penske/RaceList/RaceList/Shared/Series.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlcmllcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/source/Penske/RaceList/RaceList/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/source/Penske/RaceList/RaceList/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-uhvzf50wk2
